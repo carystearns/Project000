@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Places and History
+        </title>
+        <style>
+        h5 {color: red; font-weight: bold; text-align: center; font-family: Palatino;}
+        h4 {color: green; text-align: center; font-family: Palatino;}
+        table {
+          border: 4px solid black;
+          border-collapse: collapse;
+          width: 50%;
+        }
+        th, td {
+          border: 2px solid black;
+          padding: 5px;
+        }
+        th {
+          background-color: light red;
+          font-size: 18px;
+          font-color: green;
+        }
+        </style>
+    </head>
+    <body>
+      <h5>Popular Monuments</h5>
+      <table>
+        <tr>
+          <th>Place</th>
+          <th>Description</th>
+          <th>Picture</th>
+        </tr>
+        <tr>
+          <td>Roman Forum</td>
+          <td>The ruins of the structures where the roman senate once held sessions</td>
+          <td><img height="5%" src="https://imgur.com/t4s88jU" /></td>
+        <tr>
+          <td>Colosseum</td>
+          <td>Ancient entertainment arena</td>
+          <td><img height="5%" src="https://imgur.com/ZkbAhiu" /></td>
+        <tr>
+          <td>Trevi Fountain</td>
+          <td>Large, famous Baroque fountain</td>
+          <td><img height="5%" src="https://imgur.com/ReYXHpX" /></td>
+        <tr>
+          <td>St. Peter's Basilica</td>
+          <td>Technically not part of Rome, but it's the largest church in the world</td>
+          <td><img height="5%" src="https://imgur.com/jrw7dTP" /></td>
