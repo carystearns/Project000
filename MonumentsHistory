@@ -4,9 +4,20 @@
         <title>Places
         </title>
         <link href="stylesheet.css" rel="stylesheet" type="text/css">
+        <style>
+        ul {text-align: center;}
+        </style>
     </head>
     <body>
-      <h5>Popular Monuments</h5>
+      <header>
+        <ul>
+        <li><a href="TitlePage.html">Home</a></li>
+        <li><a href="Monuments.html">Famous Monuments</a></li>
+        <li><a href="FoodandDrink.html">Eating and Drinking</a></li>
+        <li><a href="Epochs.html">A Little History</a></li>
+      </ul>
+      </header>
+      <h1>Popular Monuments</h1>
       <table>
         <tr>
           <th>Place</th>

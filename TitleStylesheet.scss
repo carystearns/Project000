@@ -1,0 +1,13 @@
+
+%text {
+  font-family: arial;
+  font-size: 25px;
+  text-align: center;
+}
+div {
+  background-color: yellow;
+  width: 300px;
+  margin: 0 auto;
+  p {@extend %text;
+     color: blue;}
+}
