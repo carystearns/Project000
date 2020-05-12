@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cary's Webpage
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="TitleStylesheet.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    @media (min-width: 500px) {
+  h1::before {
+      content: "Welcome to Cary's Webpage About Visiting Rome!";
+  }
+  }
+
+  @media (max-width: 499px) {
+    h1::after {
+      content: "Cary's Webpage on Rome";
+  }
+  }
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+ li {text-align: center;}
+  </style>
+    </head>
+    <body>
+      <header>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Hey There!</strong> Let's learn a bit about rome!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+        <ul>
+        <li><a href="TitlePage.html">Home</a></li>
+        <li><a href="Monuments.html">Famous Monuments</a></li>
+        <li><a href="FoodandDrink.html">Eating and Drinking</a></li>
+        <li><a href="Epochs.html">A Little History</a></li>
+      </ul>
+      </header>
+        <h1>Welcome to Cary's Webpage About Visiting Rome!</h1>
+        <img src="Rome1.jpg" style="width: 400px" class="center">
+      <div>
+        <p> Thank you for visiting my website!  Please check out the links above to learn more about visiting Rome.
+    </body>
+</html>
