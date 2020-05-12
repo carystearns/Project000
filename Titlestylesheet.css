@@ -4,10 +4,10 @@ div p {
   text-align: center;
 }
 div {
-  background-color: yellow;
+  background-color: lightgreen;
   width: 300px;
   margin: 0 auto;
 }
 div p {
-  color: blue;
+  color: red;
 }

@@ -5,9 +5,9 @@
   text-align: center;
 }
 div {
-  background-color: yellow;
+  background-color: lightgreen;
   width: 300px;
   margin: 0 auto;
   p {@extend %text;
-     color: blue;}
+     color: red;}
 }
